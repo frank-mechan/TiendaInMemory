@@ -24,8 +24,9 @@ public class ProductoRepository {
     
     public ProductoRepository() {
         // Datos de ejemplo al iniciar
-        save(new Producto(null, "Laptop", "Tecnología", 1200.99));
-        save(new Producto(null, "Smartphone", "Tecnología", 799.50));
+       // Datos de ejemplo al iniciar
+productos.add(new Producto(null, "Laptop", "Tecnología", 1200.99));
+productos.add(new Producto(null, "Smartphone", "Tecnología", 799.50));
     }
     
     public Producto save(Producto producto) {
